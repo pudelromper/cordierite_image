@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/pudelromper/cordielite:latest
+FROM ghcr.io/pudelromper/cordierite:latest
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
